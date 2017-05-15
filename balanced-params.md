@@ -3,9 +3,10 @@ Done in 45 minutes w/ Skilled.com
 
 ## Exercise
 
-"""
 input: string, paren hash from opening paren to closing paren
 output: boolean which determines if the string contains balanced parentheses
+
+*Examples*
 
 "cafdsafd(dfasfds)d" => True
 ")(" => False
@@ -30,7 +31,8 @@ Output: Boolean
 
 array of what's been opened AND what's not been matched _yet_
 
-"""
+
+**Solution**
 ```param_hash = {'(' => ')', '[' => ']', '{' => '}'}
 
   def balanced?(string, param_hash)
