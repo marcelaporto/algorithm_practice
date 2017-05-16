@@ -12,8 +12,8 @@ We use `__init__` to initialize a new `Element`. An `Element` has some value ass
 
 ```"""The LinkedList code from before is provided below.""
 
-#`head` Element, which is the first element in the list. If we establish a new `LinkedList` without a head, it will default to `None`. 
-#We use `__init__` to initialize a new `Element`. An `Element` has some value associated with it (which could be anything—a number, a string, a character, et cetera), and it has a variable that points to the `next` element in the linked list. 
+# head Element, which is the first element in the list. If we establish a new LinkedList without a head, it will default to None. 
+#We use __init__ to initialize a new `Element`. An Element has some value associated with it (which could be anything—a number, a string, a character, et cetera), and it has a variable that points to the `next` element in the linked list. 
 
 class Element(object):
     def __init__(self, value):
